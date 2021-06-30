@@ -1,4 +1,4 @@
 # Amzon-Website-Automation
 
-This is a sample project for Selenium web automation for Amazon web page using java
+This is a sample project for Amazon web page using selenium - java
 
