@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="15" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-25T16:32:49 GMT-08:00" name="amazon.test1" finished-at="2020-11-25T16:33:28 GMT-08:00" duration-ms="38986">
+    <groups>
+    </groups>
+    <test started-at="2020-11-25T16:32:49 GMT-08:00" name="Amazon Test" finished-at="2020-11-25T16:33:28 GMT-08:00" duration-ms="38986">
+      <class name="co.amazon.test1.TC_page1">
+        <test-method is-config="true" signature="getURL()[pri:0, instance:co.amazon.test1.TC_page1@419c5f1a]" started-at="2020-11-25T16:32:49 GMT-08:00" name="getURL" finished-at="2020-11-25T16:32:59 GMT-08:00" duration-ms="9664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="searchMethod(java.lang.String)[pri:0, instance:co.amazon.test1.TC_page1@419c5f1a]" started-at="2020-11-25T16:32:59 GMT-08:00" name="searchMethod" finished-at="2020-11-25T16:33:06 GMT-08:00" duration-ms="6392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMethod -->
+      </class> <!-- co.amazon.test1.TC_page1 -->
+      <class name="co.amazon.test1.TC_page3">
+        <test-method signature="selectToCart()[pri:0, instance:co.amazon.test1.TC_page3@769e7ee8]" started-at="2020-11-25T16:33:14 GMT-08:00" name="selectToCart" finished-at="2020-11-25T16:33:16 GMT-08:00" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToCart -->
+      </class> <!-- co.amazon.test1.TC_page3 -->
+      <class name="co.amazon.test1.TC_page2">
+        <test-method signature="selectItem()[pri:0, instance:co.amazon.test1.TC_page2@12b0404f]" started-at="2020-11-25T16:33:06 GMT-08:00" name="selectItem" finished-at="2020-11-25T16:33:14 GMT-08:00" duration-ms="8414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+      </class> <!-- co.amazon.test1.TC_page2 -->
+      <class name="co.amazon.test1.TC_page5">
+        <test-method is-config="true" signature="createAccount()[pri:0, instance:co.amazon.test1.TC_page5@71b1176b]" started-at="2020-11-25T16:33:26 GMT-08:00" name="createAccount" finished-at="2020-11-25T16:33:28 GMT-08:00" duration-ms="2354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="setAccountData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.amazon.test1.TC_page5@71b1176b]" started-at="2020-11-25T16:33:28 GMT-08:00" name="setAccountData" finished-at="2020-11-25T16:33:28 GMT-08:00" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shamika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shamika96@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcD@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcD@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAccountData -->
+      </class> <!-- co.amazon.test1.TC_page5 -->
+      <class name="co.amazon.test1.TC_page4">
+        <test-method signature="shoppingCartValidation()[pri:0, instance:co.amazon.test1.TC_page4@5276e6b0]" started-at="2020-11-25T16:33:16 GMT-08:00" name="shoppingCartValidation" finished-at="2020-11-25T16:33:26 GMT-08:00" duration-ms="9746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartValidation -->
+      </class> <!-- co.amazon.test1.TC_page4 -->
+      <class name="co.amazon.test1.Base_class">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:co.amazon.test1.Base_class@56de5251]" started-at="2020-11-25T16:32:46 GMT-08:00" name="browserSetup" finished-at="2020-11-25T16:32:49 GMT-08:00" duration-ms="3949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.amazon.test1.Base_class@56de5251]" started-at="2020-11-25T16:33:29 GMT-08:00" name="tearDown" finished-at="2020-11-25T16:33:30 GMT-08:00" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.amazon.test1.Base_class -->
+    </test> <!-- Amazon Test -->
+  </suite> <!-- amazon.test1 -->
+</testng-results>

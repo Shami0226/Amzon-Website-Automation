@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="amazon.test1" >
+  <test name="Amazon Test"   >
+  
+   <parameter name="inputItem" value="Shirt"></parameter>
+   <parameter name="customerName" value="shamika"></parameter>
+   <parameter name="email" value="shamika96@gmail.com"></parameter>
+   <parameter name="password" value="abcD@123"></parameter>
+   <parameter name="rePassword" value="abcD@123"></parameter>
+    
+   <classes>
+   		<class name="co.amazon.test1.Base_class"></class>
+   		<class name="co.amazon.test1.TC_page1"></class>
+   		<class name="co.amazon.test1.TC_page2"></class>
+   		<class name="co.amazon.test1.TC_page3"></class>
+   		<class name="co.amazon.test1.TC_page4"></class>
+   		<class name="co.amazon.test1.TC_page5"></class>
+   	
+   
+   </classes>
+ </test>
+</suite>
